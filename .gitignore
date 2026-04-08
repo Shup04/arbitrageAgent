@@ -1,0 +1,16 @@
+# .gitignore
+
+# Security (NEVER COMMIT THESE)
+.env
+
+# Local Database
+arbitrage_memory.db
+arbitrage_memory.db-journal
+
+# Python clutter
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
